@@ -74,8 +74,8 @@ export default class Presentation extends React.Component {
             <Heading size={1} caps textColor="white">
               React Forms: Bindings Pattern
             </Heading>
-            <Text size={3} caps textColor="white">
-              by Michael A Tomcal @matomcal
+            <Text size={3} textColor="white">
+              By Michael A Tomcal <Link textColor={'grey'} href="https://twitter.com/matomcal" target="_blank">@matomcal</Link>
             </Text>
           </Slide>
           <Slide transition={["slide"]} bgColor="primary">
@@ -109,7 +109,7 @@ export default class Presentation extends React.Component {
           </Slide>
           <Slide transition={["slide"]} bgColor="primary">
             <Heading size={4} textColor="white">
-              Follow me at <Link href="https://twitter.com/matomcal" target="_blank">@matomcal</Link> for further questions.
+              Follow me at <Link textColor={'grey'} href="https://twitter.com/matomcal" target="_blank">@matomcal</Link> for further questions.
             </Heading>
           </Slide>
         </Deck>
